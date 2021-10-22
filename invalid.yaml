@@ -21,7 +21,7 @@ spec:
       runAfter:
         - git-clone
       workspaces:
-              - name: shared-workspace
+        - name: shared-workspace
           workspace: pipeline-shared-data
       params:
         - name: args
